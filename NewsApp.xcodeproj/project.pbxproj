@@ -21,6 +21,7 @@
 		3EB0EB0727EF61690069D2B8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0EB0627EF61690069D2B8 /* HomeViewModel.swift */; };
 		3EB0EB0A27EF7F0A0069D2B8 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3EB0EB0927EF7F0A0069D2B8 /* URLImage */; };
 		3EB0EB0C27EF80120069D2B8 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0EB0B27EF80120069D2B8 /* ArticleView.swift */; };
+		3EB0EB0E27EF85130069D2B8 /* ErrorVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0EB0D27EF85130069D2B8 /* ErrorVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		3EB0EB0327EF60F20069D2B8 /* ResultState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultState.swift; sourceTree = "<group>"; };
 		3EB0EB0627EF61690069D2B8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		3EB0EB0B27EF80120069D2B8 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		3EB0EB0D27EF85130069D2B8 /* ErrorVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				3EB0EAF027EF52820069D2B8 /* HomeView.swift */,
 				3EB0EB0B27EF80120069D2B8 /* ArticleView.swift */,
+				3EB0EB0D27EF85130069D2B8 /* ErrorVIew.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				3EB0EAFE27EF56560069D2B8 /* UIImage+Extension.swift in Sources */,
 				3EB0EAF427EF53570069D2B8 /* NewsResponse.swift in Sources */,
 				3EB0EAF727EF54C20069D2B8 /* Network.swift in Sources */,
+				3EB0EB0E27EF85130069D2B8 /* ErrorVIew.swift in Sources */,
 				3EB0EB0227EF59170069D2B8 /* APIError.swift in Sources */,
 				3EB0EAF927EF55E50069D2B8 /* Api.swift in Sources */,
 				3EB0EAE127EF50A80069D2B8 /* NewsAppApp.swift in Sources */,
