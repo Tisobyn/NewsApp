@@ -7,8 +7,17 @@
 
 import SwiftUI
 
-struct ErrorVIew: View {
+struct ErrorView: View {
+
+    typealias ErrorViewActionHandler = () -> Void
+    let handler: ErrorViewActionHandler
     let error: Error
+
+    internal init(error: Error, handler: @escaping ErrorView.ErrorViewActionHandler) {
+        self.handler = handler
+        self.error = error
+    }
+
     var body: some View {
         VStack {
             Image(systemName: "exclamationmark.icloud.fill")
@@ -25,7 +34,7 @@ struct ErrorVIew: View {
                 .multilineTextAlignment(.center)
                 .padding(.vertical, 4)
             Button {
-
+                handler()
             } label: {
                 Text("Retry")
             }
@@ -41,6 +50,8 @@ struct ErrorVIew: View {
 
 struct ErrorVIew_Previews: PreviewProvider {
     static var previews: some View {
-        ErrorVIew(error: APIError.decodingError)
+        ErrorView(error: APIError.decodingError) {
+            print("Hello")
+        }
     }
 }

@@ -22,7 +22,6 @@ class HomeViewModel: ObservableObject, HomeVMP {
 
     init(network: NetworkManager) {
         self.network = network
-        getArticles()
     }
 
     func getArticles() {
