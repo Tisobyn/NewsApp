@@ -1,3 +1,3 @@
 # NewsApp
 
-Using SwiftUI, Combine, MVVM
+Simple News App by using SwiftUI, Combine, MVVM and Custom Network
